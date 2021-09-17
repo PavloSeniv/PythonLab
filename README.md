@@ -8,7 +8,7 @@ You can find my lab for phyton
 
 ## Demo
 
-https://pavloseniv.github.io/
+https://github.com/PavloSeniv/PythonLab/tree/master
 
 ## Screenshots
 
