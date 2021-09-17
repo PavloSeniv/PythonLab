@@ -15,125 +15,85 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-# task 1 - 4
-# task1X = int(input())
-# print('1: ' + str(task1X))
-# task1X = float(task1X + 0.8)
-# print('2: ' + str(task1X))
-# task1X = str(task1X)*3
-# print('3: ' + str(task1X))
+import math
+import random
 
-# task 5
-# n = int(input())
-# ivEnding = ['0', '6', '7', '8','9']
-# aEnding = ['2', '3', '4']
-# zeroEnding = ['1']
-# if n >= 100:
-#   print('Number is greater than 100')
-# elif str(n)[-1] in ivEnding:
-#   print('Zalik zdalo ' + str(n) + ' studentiv')
-# elif str(n)[-1] in aEnding:
-#   print('Zalik zdalo ' + str(n) + ' studenta')
-# elif str(n)[-1] in zeroEnding:
-#   print('Zalik zdalo ' + str(n) + ' student')
+# Task 1
+number_x = int(input())
 
-# task 8
-# def isSimple(n):
-#     if n % 2 == 0:
-#         return n == 2
-#     nextN = 3
-#     while nextN * nextN <= n and n % nextN != 0:
-#         nextN += 2
-#     return nextN * nextN > n
+# Task 2
+# print('Task 2: ' + str(number_x))
 
-# print(isSimple(1))
-# print(isSimple(3))
-# print(isSimple(8))
-# print(isSimple(6))
+# Task 3
+# number_x = int(input())
+# sum_x = float(number_x+0.8)
+# print('Task 3: ' + str(sum_x))
 
-# task 9
-# import random
-# randomlist = []
-# for i in range(0,10):
-#   randomlist.append(random.randint(1,50))
-# print(randomlist)
+# Task 4
+# number_x = int(input())
+# string_x = str(number_x)
+# print(string_x*3)
 
-# task 10
-# import random
-# isRun = True
-# while(isRun):
-#   a = random.randint(1,10)
-#   b = random.randint(1,10)
-#   print(f'Please enter a result of: {a}*{b}')
-#   userInp = int(input())
-#   if userInp == a * b:
-#     print('Now you are free....')
-#     isRun = False
-#   else:
-#     print('Wrong answer. Try again...')
+# Task 5
+# print('Enter number<100: ')
+# number_x = str(int(input()))
+# last_number = int(number_x[len(number_x)-1])
+# first_number = int(number_x[len(number_x)-len(number_x)])
+# print(first_number)
+# string = 'Zalik zdalo '
+# if last_number == 0 or last_number == 5 or last_number == 6 or last_number == 7 or \
+#         last_number == 8 or last_number == 9 or first_number == 1:
+#     string += number_x + ' studeniv'
+# elif last_number == 2 or last_number == 3 or last_number == 4:
+#     string += number_x + ' studenty'
+# elif first_number == 1:
+#     string += number_x+' student'
+# print(string)
 
-# task exception 1
-# try:
-#   x = int(input())
-#   result = 1/x
-# except ZeroDivisionError:
-#   print('you cant divide by zero')
-# finally:
-#   print('Good bye')
+# Task 6
+# print('Enter 2 numbers > 0')
+# number_a = float(input())
+# number_b = float(input())
+# if number_a < 0 and number_a < 0 :
+#     print('Enter number > 0')
+# else:
+#     x = math.sqrt(number_a * number_b) / (math.exp(number_a) * number_b) + number_a*math.exp((2*number_a)/number_b)
+#     print(x)
 
-# task ex 2
-# import random
+# Task 7
+# number_n = int(input())
+# number_x = float(input())
+# result = 1
+# for i in range(1, number_n+1):
+#     result += pow(number_x, i)
+# print(result)
 
-# myList = None
+# Task 8
+# number_n = int(input())
+# number_d = 2
+# if number_n == 1:
+#     print('Prime number')
+# else:
+#     while number_n % number_d != 0:
+#         number_d += 1
+#     if number_d == number_n:
+#         print('Prime number')
+#     else:
+#         print('Not prime number')
 
-# def createList():
-#   global myList
-#   myList = []
+# Task 9
+# number_zero = 0;
+# while number_zero<10:
+#     print(random.randint(1,1000))
+#     number_zero+=1
 
-# def addElement():
-#   print('Element: ')
-#   try:
-#     el = int(input())
-#     myList.append(el)
-#   except ValueError:
-#     print('Incorrect value entered. Please enter a number')
-#   except AttributeError:
-#     print('You should create a list before inserting')
-
-# def preview():
-#   print(myList)
-
-# def createAuto():
-#   global myList
-#   print('Please specify a size of list')
-#   r = int(input())
-#   myList = random.sample(range(10, 30), r)
-
-# def removeByIndex():
-#   global myList
-#   print('Please specify an index (starting from 1)')
-#   myList.pop(int(input())-1)
-
-# while True:
-#   print('My menu')
-#   print('1: create list')
-#   print('2: add element')
-#   print('3: preview')
-#   print('4: exit')
-#   print('5: create a list automatically')
-#   print('6: remove element by index')
-#   inp = int(input())
-#   if inp == 1:
-#     createList()
-#   elif inp == 2:
-#     addElement()
-#   elif inp == 3:
-#     preview()
-#   elif inp == 4:
-#     break
-#   elif inp == 5:
-#     createAuto()
-#   elif inp == 6:
-#     removeByIndex()
-#   elif inp > 6:
-#     print('It is not a menu item')
+# Task 10
+# result = 0
+# answer = ''
+# while result != answer:
+#    number_1 = random.randint(1, 10)
+#    number_2 = random.randint(1, 10)
+#    result = number_1*number_2
+#    print(str(number_1)+" * "+str(number_2)+" = ")
+#    answer = int(input())
+# print("Answer is right!")
