@@ -13,6 +13,12 @@ __pycache__/
 **/pyvenv.cfg
 # ------ Up Here ------
 
+# Laba2
+/Laba2/.idea
+/Laba2/Scripts
+/Laba2/Lib
+/Laba2/pyvenv.cfg
+
 # Distribution / packaging
 .Python
 build/
