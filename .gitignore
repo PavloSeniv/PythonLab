@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# dependencies
+**/node_modules
+**/.idea
+**/Scripts
+**/pyvenv.cfg
+# ------ Up Here ------
+
 # Distribution / packaging
 .Python
 build/
@@ -14,7 +21,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+**/lib/
 lib64/
 parts/
 sdist/
