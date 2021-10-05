@@ -1,7 +1,7 @@
 # Task 1.1
-# input_namber = input("Введіть число:") 
-# sum_namber = sum([int(i) for i in input_namber])
-# print("Сума цифр числа:", sum_namber)
+input_number = input("Введіть число:") 
+sum_number = sum([int(i) for i in input_number])
+print("Сума цифр числа:", sum_number)
 
 ##################################################
 
@@ -11,9 +11,9 @@
 #     print(item)  
 #     count = fruits_list.count(item)
 #     if count == 1:
-#         print("Element is unique")
+#         print("Елемент унікалний")
 #     else:
-#         print("Element is not unique")
+#         print("Елемент не унікальний")
 
 ##################################################
 
