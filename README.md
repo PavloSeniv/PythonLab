@@ -9,3 +9,7 @@ You can find my lab for phyton
 ## Demo
 
 https://github.com/PavloSeniv/PythonLab/tree/master
+
+## Replit
+
+https://replit.com/@PavloSeniv/Laba1
