@@ -1,17 +1,19 @@
 # Task 1.1
-# input_namber = input("Введіть число:")
+# input_namber = input("Введіть число:") 
 # sum_namber = sum([int(i) for i in input_namber])
 # print("Сума цифр числа:", sum_namber)
 
 ##################################################
 
 # Task 1.2
-# companies = ["Microsoft", "Google", "Oracle", "Apple","Apple"]
-# for item in companies:
-#     print(item)
-# companies_count = companies.count(item)
-# if companies_count >= 2:
-#   print("Елемент не унікальний")
+# fruits_list = ["Apple","Banana","Melon",'Banana','Watermelon','Watermelon']
+# for item in fruits_list:
+#     print(item)  
+#     count = fruits_list.count(item)
+#     if count == 1:
+#         print("Element is unique")
+#     else:
+#         print("Element is not unique")
 
 ##################################################
 
@@ -20,7 +22,7 @@
 # array = string.split(" ")
 # count = 0
 # for i in array:
-#     if len(i) > 1:
+#     if len(i) == 1:
 #         count += 1
 # print(count)
 
@@ -34,12 +36,12 @@
 #      if letter.lower() in value_vowels:
 #          count += 1
 # print("Голосних букв у тексті: ", count)
-
+         
 ##################################################
 
 # Task 2.1
-# dict_abc = {'a': 1, 'b': 2, 'c': 3, 'd': 3}
-# dict_123 = {v: k for k, v in dict_abc.items()}
+# dict_abc = {'a': 1, 'b': 2, 'c': 3, 'd': 3} 
+# dict_123 = {v: k for k, v in dict_abc.items()} 
 # print(dict_123)
 
 ##################################################
