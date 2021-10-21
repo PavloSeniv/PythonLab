@@ -77,7 +77,6 @@ scalar = Vector.scalarVector(a,b)
 print("Скалярний добуток вектора " + str(a) + " та вектора " + str(b) + " дорівнює ",scalar)
 
 #########################################
-
 # Task 2
 
 # class Student:
